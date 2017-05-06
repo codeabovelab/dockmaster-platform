@@ -102,6 +102,7 @@ also be stored in a Git repository and credentials passed in via enviroment vari
 cluster-manager.yml from a Git repository, you must specify the Git URL, username, and password:
 
 ```properties
+ -e "dm_config_git_enabled=true"
  -e "dm_config_git_uri=https://github.com/codeabovelab/haven-example-configuration.git"
  -e "dm_config_git_username=username"
  -e "dm_config_git_password=password"
